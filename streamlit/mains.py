@@ -104,7 +104,6 @@ def extract_objects(image, bboxes, labels, output_dir="output_objects"):
 # Streamlit app
 def main():
     st.title("Image Object Detection & Segmentation with Object Summary")
-    st.subheader('©️ Faraz Siddiqui')
 
     uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 
